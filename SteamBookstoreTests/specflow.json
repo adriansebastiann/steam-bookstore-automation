@@ -1,0 +1,14 @@
+{
+  "bindingCulture": {
+    "name": "en-us"
+  },
+  "unitTestProvider": {
+    "name": "NUnit"
+  },
+  "plugins": [
+    {
+      "name": "Allure.SpecFlow",
+      "type": "Runtime"
+    }
+  ]
+}

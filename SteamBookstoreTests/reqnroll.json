@@ -1,0 +1,12 @@
+{
+  "bindingCulture": { "name": "en-us" },
+  "unitTestProvider": { "name": "NUnit" },
+  "plugins": [
+    {
+      "name": "Reqnroll.Plugins.Allure",
+      "parameters": {
+        "outputDirectory": "allure-results"
+      }
+    }
+  ]
+}
