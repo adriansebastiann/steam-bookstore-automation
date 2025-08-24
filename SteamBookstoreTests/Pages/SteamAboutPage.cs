@@ -6,8 +6,8 @@ namespace SteamBookstoreTests.Pages
     {
         public SteamAboutPage(IWebDriver driver) : base(driver) { }
 
-        private By InstallSteamBtn => By.CssSelector("div.about_install.win ");
-        private By PlayingNowStat => By.CssSelector("div.online_stat:has(.gamers_in_game)\r\n");
+        private By InstallSteamBtn => By.XPath("(//a[contains(text(), 'Install Steam')])[1]");
+        private By PlayingNowStat => By.CssSelector("div.online_stat:has(.gamers_in_game)");
         private By OnlineStat => By.CssSelector("div.online_stat:has(.gamers_online)");
 
         public bool IsInstallSteamButtonClickable()
